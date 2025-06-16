@@ -1,112 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Melvin J Bonner - AWS Solutions Architect Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Melvin Bonner AWS Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #007acc; color: white; padding: 1rem; text-align: center; }
+        main { padding: 2rem; max-width: 1000px; margin: auto; }
+        section { background: white; padding: 1rem; margin-bottom: 1rem; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        h2 { color: #007acc; }
+        footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
 </head>
 <body>
+<header>
+    <h1>Melvin Bonner - AWS Portfolio</h1>
+</header>
+<main>
 
-  <nav>
-    <div class="nav-container">
-      <div class="logo">Melvin J Bonner</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <section>
+        <h2>Project 1: AWS Compute - Three Tier Web Application</h2>
+        <p>This project demonstrates the implementation of a highly available, fault-tolerant, and scalable three-tier web application architecture using Amazon Web Services (AWS). The architecture includes a presentation tier using Elastic Load Balancing (ELB) and Amazon S3, an application tier hosted on EC2 instances within an Auto Scaling group, and a data tier using Amazon RDS. The design ensures resilience, scalability, and security through the use of multiple Availability Zones, security groups, and IAM roles.</p>
+    </section>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Melvin J Bonner</h1>
-      <p>Cloud Practitioner | AWS Solutions Architect Candidate</p>
-      <a href="#projects" class="cta-button">View My Work</a>
-    </div>
-  </section>
+    <section>
+        <h2>Project 2: AWS Database - RDS and DynamoDB Design</h2>
+        <p>This project focuses on the design and deployment of relational and NoSQL databases on AWS. Using Amazon RDS for structured, relational data and DynamoDB for high-performance NoSQL storage, this architecture supports diverse application requirements. The project demonstrates database provisioning, parameter group configuration, performance tuning, security implementation, and integration with application layers. It showcases best practices for high availability, backup and recovery, monitoring, and cost optimization on AWS database services.</p>
+    </section>
 
-  <section id="about">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <p>I'm a financial leader pivoting into cloud computing with a career goal of becoming a Solutions Architect. My passion is designing scalable, cost-efficient AWS solutions. I'm certified in AWS Cloud Practitioner and actively building serverless and full-stack cloud projects on AWS.</p>
-    </div>
-  </section>
+    <section>
+        <h2>Project 3: AWS Storage - S3 and Glacier Lifecycle Management</h2>
+        <p>This project implements AWS S3 and Glacier for efficient object storage and archival solutions. The design includes S3 bucket configuration, versioning, cross-region replication, lifecycle policies for automated transition to Glacier, and secure access using IAM policies and bucket policies. It demonstrates cost-effective long-term storage management while ensuring data durability, availability, and compliance with data retention policies. The solution includes automation scripts and monitoring configurations for operational efficiency.</p>
+    </section>
 
-  <section id="projects" class="fade-in">
-    <h2 class="section-title">Featured Projects</h2>
-    <div class="projects-grid">
+    <section>
+        <h2>Project 4: AWS Security - IAM, KMS, and Compliance Design</h2>
+        <p>This project delivers a comprehensive security design using AWS Identity and Access Management (IAM), Key Management Service (KMS), and compliance frameworks. The architecture implements least privilege access control, role-based access policies, encrypted data at rest and in transit, and auditing through AWS CloudTrail and AWS Config. The solution aligns with regulatory requirements such as HIPAA, SOC 2, and PCI-DSS, ensuring enterprise-grade security posture. The project includes policy documentation, compliance mappings, and automated security assessments.</p>
+    </section>
 
-      <div class="project-card">
-        <div class="project-image">
-          <img src="assets/images/aws-compute-api.png" alt="AWS Compute API" style="width:100%;border-radius:10px;">
-        </div>
-        <h3 class="project-title">Legendary AWS Compute API</h3>
-        <p class="project-description">Serverless REST API using Lambda & API Gateway with OpenAPI docs.</p>
-        <div class="project-tech">
-          <span class="tech-tag">Lambda</span>
-          <span class="tech-tag">API Gateway</span>
-          <span class="tech-tag">Swagger</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="assets/images/aws-compute-lambda.png" alt="AWS Lambda Fetch" style="width:100%;border-radius:10px;">
-        </div>
-        <h3 class="project-title">AWS Compute - Fetch Data with Lambda</h3>
-        <p class="project-description">Lambda function retrieving DynamoDB data securely with IAM policies.</p>
-        <div class="project-tech">
-          <span class="tech-tag">Lambda</span>
-          <span class="tech-tag">DynamoDB</span>
-          <span class="tech-tag">IAM</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="assets/images/aws-networks-cloudfront.png" alt="AWS CloudFront" style="width:100%;border-radius:10px;">
-        </div>
-        <h3 class="project-title">AWS Networks - CloudFront Delivery</h3>
-        <p class="project-description">Global static website delivery using S3 & CloudFront with secure OAC.</p>
-        <div class="project-tech">
-          <span class="tech-tag">S3</span>
-          <span class="tech-tag">CloudFront</span>
-          <span class="tech-tag">OAC</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="assets/images/aws-compute-threetier.png" alt="Three-Tier Web App" style="width:100%;border-radius:10px;">
-        </div>
-        <h3 class="project-title">AWS Three-Tier Web Application</h3>
-        <p class="project-description">Serverless 3-tier app with S3, Lambda, API Gateway, DynamoDB, IAM, CloudWatch.</p>
-        <div class="project-tech">
-          <span class="tech-tag">S3</span>
-          <span class="tech-tag">API Gateway</span>
-          <span class="tech-tag">Lambda</span>
-          <span class="tech-tag">DynamoDB</span>
-          <span class="tech-tag">IAM</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2 class="section-title">Contact Me</h2>
-    <div class="contact-content">
-      <p>I'm open to AWS Solutions Architect, Cloud Engineer, and Cloud Developer opportunities.</p>
-      <p>Email: melvin.bonner@example.com</p>
-      <p>LinkedIn: linkedin.com/in/melvinbonner</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Melvin J Bonner. All rights reserved.</p>
-  </footer>
-
+</main>
+<footer>
+    <p>© 2025 Melvin Bonner</p>
+</footer>
 </body>
 </html>
