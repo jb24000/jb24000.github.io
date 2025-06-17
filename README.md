@@ -7,7 +7,7 @@ This portfolio showcases a collection of real-world AWS cloud projects that demo
 
 ## 🚀 Live Portfolio
 
-👉 [GitHub Pages Link (once deployed)](https://yourusername.github.io/aws-portfolio/)
+👉 https://jb24000.github.io/index.html
 
 ---
 
