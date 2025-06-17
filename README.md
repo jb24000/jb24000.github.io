@@ -20,3 +20,35 @@ Each project includes:
 - 🖼 Image thumbnail used for display  
 - 🔗 Clickable image to open full project document
 
+
+---
+
+## 🔧 Projects Included
+
+- **AWS Compute Three Tier Web Application**
+- **Fetch Data with AWS Lambda**
+- **APIs with Lambda + API Gateway**
+- **Website Delivery with CloudFront**
+
+---
+
+## 💻 Technologies Used
+
+- **AWS Services:** EC2, S3, Lambda, API Gateway, CloudFront, DynamoDB, IAM
+- HTML5, CSS3, Git, GitHub Pages
+
+---
+
+## 📈 How to Add New Projects
+
+1️⃣ Place your new PDF file into `/projects/`  
+2️⃣ Place your new thumbnail image into `/images/`  
+3️⃣ Copy & paste the following block into `index.html` under the `.projects-grid` section:
+
+```html
+<div class="project-card">
+  <a href="projects/YOUR-PROJECT-FILE.pdf" target="_blank">
+    <img src="images/YOUR-IMAGE-FILE.png" alt="Your Project Title" />
+  </a>
+  <h3>Your Project Title</h3>
+</div>
