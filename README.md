@@ -1,4 +1,4 @@
-# Melvin J Bonner - AWS Solutions Architect Portfolio
+# Melvin J Bonner – AWS Solutions Architect Portfolio
 
 Welcome to my personal AWS Solutions Architect Portfolio.  
 This portfolio showcases a collection of real-world AWS cloud projects that demonstrate my technical skills, architecture design, and hands-on implementation experience.
@@ -7,63 +7,74 @@ This portfolio showcases a collection of real-world AWS cloud projects that demo
 
 ## 🚀 Live Portfolio
 
-👉 https://jb24000.github.io/index.html
+👉 [https://jb24000.github.io/index.html](https://jb24000.github.io/index.html)
 
 ---
 
 ## 📂 Project Structure
 
-- `/index.html`
-- `/images/` (project thumbnails)
-- `/pdfs/` (project PDFs)
-- `/README.md`
+- `/index.html` – Main portfolio homepage
+- `/viewer.html` – Embedded PDF viewer (prevents mobile auto-downloads)
+- `/images/` – Project thumbnail images
+- `/pdfs/` – Project PDF diagrams
+- `/README.md` – You're here
 
 ---
 
 ## 🔧 Projects Included
 
-- AWS Compute Three Tier Web Application
-- Fetch Data with AWS Lambda
-- APIs with Lambda + API Gateway
-- Website Delivery with CloudFront
+- AWS Compute Three Tier Web Application  
+- Fetch Data with AWS Lambda  
+- APIs with Lambda + API Gateway  
+- Website Delivery with CloudFront  
+- Legendary AWS Security Monitoring System  
+- Legendary AWS DevOps: Terraform S3  
+- Legendary AWS Network Peering  
+- Deploy an App with Docker  
+- Launch a Kubernetes Cluster  
+- Set Up Kubernetes Deployment  
 
 ---
 
 ## 💻 Technologies Used
 
-- AWS: EC2, S3, Lambda, API Gateway, CloudFront, DynamoDB, IAM
-- HTML5, CSS3, Git, GitHub Pages
+- **AWS**: EC2, S3, Lambda, API Gateway, CloudFront, EKS, IAM, Terraform, Elastic Beanstalk
+- **Frontend**: HTML5, CSS3
+- **DevOps**: Git, GitHub, GitHub Pages
 
 ---
 
-## 📈 How to Add New Projects
+## 🧩 How to Add a New Project
 
-1. **Upload your new project PDF** to the `pdfs/` folder in this repository.
-2. **Upload your project thumbnail image** to the `images/` folder.
-3. **Add a new project card** inside `index.html` by copy-pasting the following code inside the `<div class="projects-grid">` section:
+1. Upload your new PDF to the `pdfs/` folder.
+2. Upload a PNG or JPG thumbnail to the `images/` folder.
+3. Inside `index.html`, paste the following code within `<div class="projects-grid">`:
 
     ```html
     <div class="project-card">
-      <a href="pdfs/yourproject.pdf" target="_blank">
-        <img src="images/yourproject-thumbnail.png" alt="Your Project Title" />
-      </a>
-      <h3>Your Project Title</h3>
+        <a href="viewer.html?file=pdfs/your-project.pdf" target="_blank">
+            <img src="images/your-project-thumbnail.png" alt="Your Project Title" />
+        </a>
+        <h3>Your Project Title</h3>
     </div>
     ```
 
-4. **Update the PDF filename, image filename, and project title** as needed.
+4. Replace `your-project.pdf`, `your-project-thumbnail.png`, and `Your Project Title` with your own.
+
+> ✅ Note: PDF viewer prevents forced downloads on mobile browsers by embedding documents in-browser.
 
 ---
 
 ## 🔐 Deployment
 
-- Repository hosted on GitHub
-- Site published using GitHub Pages
-- **PDF documents are now hosted directly in this repository for seamless in-browser viewing**
+- Hosted via **GitHub Pages**
+- Fully mobile-responsive
+- Optimized for in-browser PDF rendering without third-party services
 
 ---
 
 ## 📬 Contact
 
-Melvin J Bonner  
-AWS Solutions Architect Portfolio
+**Melvin J Bonner**  
+AWS Solutions Architect Portfolio  
+[GitHub Profile](https://github.com/jb24000)
