@@ -1,3 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Melvin J Bonner - AWS Solutions Architect Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: 
+                linear-gradient(135deg, #1a2746 0%, #232b36 100%),
+                url('data:image/svg+xml;utf8,<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="40" height="40" fill="none"/><circle cx="20" cy="20" r="1" fill="%233a4a6b" fill-opacity="0.15"/><circle cx="0" cy="40" r="1" fill="%233a4a6b" fill-opacity="0.15"/><circle cx="40" cy="0" r="1" fill="%233a4a6b" fill-opacity="0.15"/></svg>');
+            background-size: cover, 40px 40px;
+            color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: rgba(31, 31, 31, 0.95);
+            border-bottom: 1px solid #333;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #3fa9f5;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #b0b8c1;
+        }
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .project-card {
+            background-color: rgba(31, 31, 31, 0.98);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.18);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 24px rgba(63, 169, 245, 0.15);
+        }
+        .project-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .project-card h3 {
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 1.2rem;
+            color: #3fa9f5;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #333;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #b0b8c1;
+            background: rgba(31, 31, 31, 0.95);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Melvin J Bonner</h1>
+    <p>AWS Solutions Architect Portfolio</p>
+</header>
+
 <main>
     <div class="projects-grid">
 
@@ -73,3 +157,10 @@
 
     </div>
 </main>
+
+<footer>
+    &copy; 2025 Melvin J Bonner
+</footer>
+
+</body>
+</html>
